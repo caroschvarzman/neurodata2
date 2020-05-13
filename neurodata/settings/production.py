@@ -1,8 +1,8 @@
 from .base import *
 
-DEBUG = True
+DEBUG = True #poner en false para q no aparezca la "ventana de errores" de django
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['neurodata.herokuapp.com']
 
 DATABASES = {
     'default': {
