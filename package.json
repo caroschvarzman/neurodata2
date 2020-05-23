@@ -4,7 +4,7 @@
   "description": "neurodata",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development ./apps/frontend/src/index.js --output ./apps/frontend/static/frontend/main.js",
+    "dev": "webpack --mode development --watch ./apps/frontend/src/index.js --output ./apps/frontend/static/frontend/main.js",
     "build": "webpack --mode production ./apps/frontend/src/index.js --output ./apps/frontend/static/frontend/main.js"
   },
   "repository": {
