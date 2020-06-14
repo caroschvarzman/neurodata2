@@ -4,7 +4,11 @@ import Header from './layout/Header'
 class App extends Component{
     render(){
         return (
-            <Header />
+            <div>
+                <Header />
+            </div>
+
+            
         )
     }
 }

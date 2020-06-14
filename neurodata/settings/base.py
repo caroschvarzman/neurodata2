@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'apps.main',
     'apps.frontend',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -111,3 +112,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+STATICFILES_DIRS=[
+    os.path.join(BASE_DIR, 'apps/frontend/static')
+]
+
+MEDIA_ROOT=os.path.join(BASE_DIR, 'media')
+
+MEDIA_URL='/media/'
